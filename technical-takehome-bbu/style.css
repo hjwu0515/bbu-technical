@@ -90,7 +90,7 @@ nav a:visited, nav a:link {
     width: 100%;
 }
 
-nav > ul > li{
+nav {
     display: inline-block;
     list-style: none;
     text-decoration: none!important;
