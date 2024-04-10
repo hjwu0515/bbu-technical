@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=TT+Commons');
+
+body {
+    background-image: linear-gradient(#f9c5b4, #bd505e);
+    font-family: 'TT Commons', sans-serif;
+}
+
+h1 {
+    color: #550000;
+    font-size: xx-large;
+    line-height: 1.4;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+h2 {
+    color: #c17665;
+    padding: 0px 10px;
+    font-size: large;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+/* style post bubbles */
+div.page {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+}
+
+li {
+    background-color: white;
+    font-weight: lighter;
+    border-radius: 5px;
+    margin: 10px 0 20px;
+}
+
+/* style user info */
+.parent {
+    text-align: left;
+    color: #550000;
+}
+
+.child {
+    display: inline-block;
+}
+
+img {
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: sub;
+}
+
+#profilepic {
+    margin: 10px;
+}
+
+h3 {
+    margin: 0;
+    font-weight: bold;
+}
+
+h5 {
+    margin: 0;
+    padding: 2px 0;
+    color: #c17665;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+p {
+    margin: 5px 10px 15px;
+    padding: 10px 0;
+    text-align: left;
+    letter-spacing: 0px;
+}
+
+/* footer styling */
+nav a:visited, nav a:link {
+    color: #fff;
+    background-color: #bd505e;
+    text-decoration: none!important;
+    width: 100%;
+}
+
+nav > ul > li{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none!important;
+}
