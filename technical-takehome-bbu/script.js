@@ -11,8 +11,7 @@ function handleDate(date) {
     const dateObject = new Date(date)
     const dateString = dateObject.toDateString().split(" ")
     // dateString in form ["weekday", "month", "dd", "yyyy"]
-    const day = parseInt(dateString[2]) + 1
-    const finalDate = days[dateString[0]] + ", " + month[dateString[1]] + " " + day.toString() + "th, " + dateString[3]
+    const finalDate = days[dateString[0]] + ", " + month[dateString[1]] + " " + parseInt(dateString[2]).toString() + "th, " + dateString[3]
     return finalDate
 }
 
